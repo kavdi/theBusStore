@@ -1,0 +1,65 @@
+.options {
+  width: 78%;
+}
+
+.size {
+  height: 180px;
+  width: 160px;
+  border-radius: 20%;
+  border: solid 2px orange;
+}
+
+.pic {
+  height: 200px;
+  width: 180px;
+  margin: 18px;
+  float: left;
+  display: grid;
+}
+
+.pic p {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#formDiv {
+  position: fixed;
+  left: 65%;
+  right: 8%;
+  top: 15%;
+  border: 2px solid orange;
+}
+
+.cartBtn {
+  float: right;
+  border-radius: 15%;
+  background-color: orange;
+  border: solid black 2px;
+  margin: 5px;
+}
+
+td img {
+  height: 250px;
+  width: 200px;
+  border-radius: 15%;
+  border: solid 2px orange;
+}
+
+.finalized {
+  color: orange;
+  background-color: white;
+  opacity: 0.8;
+  width: 60%;
+  text-align: center;
+  font-size: 40px;
+  left: 30%;
+}
+
+body {
+  background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e649a+0,7ec5e8+70,7ec5e8+70&1+0,0+100 */
+background: -moz-linear-gradient(top, rgba(30,100,154,1) 0%, rgba(126,197,232,0.3) 70%, rgba(126,197,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,100,154,1) 0%,rgba(126,197,232,0.3) 70%,rgba(126,197,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,100,154,1) 0%,rgba(126,197,232,0.3) 70%,rgba(126,197,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e649a', endColorstr='#007ec5e8',GradientType=0 ); /* IE6-9 */
+}
